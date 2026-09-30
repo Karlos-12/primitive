@@ -48,6 +48,30 @@ Small input images should be used (like 256x256px). You don't need the detail an
 | `v` | off | verbose output |
 | `vv` | off | very verbose output |
 
+### Desktop App (Window + Live Progress)
+
+If you prefer a windowed app instead of terminal usage, run:
+
+	python desktop_app.py
+
+Windows one-click launcher:
+
+1. Double-click `Launch Primitive App.bat`
+2. The app window opens directly
+
+The desktop app lets you choose all options manually (input image, shape count, mode, sizes, alpha, workers, output path, etc.), and shows:
+
+- live frame-by-frame progress
+- current score
+- live logs
+- live preview image updates
+
+Notes:
+
+- The app does not store settings/history between runs.
+- Preview frames are created in a temporary folder and deleted automatically.
+- Final output is only saved if you choose an output path.
+
 ### Output Formats
 
 Depending on the output filename extension provided, you can produce different types of output.

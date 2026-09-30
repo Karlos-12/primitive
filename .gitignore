@@ -2,3 +2,9 @@
 /*.svg
 /*.gif
 
+# Local desktop-app/build artifacts
+/primitive.exe
+/__pycache__/
+/.tools/
+/.vscode/
+
